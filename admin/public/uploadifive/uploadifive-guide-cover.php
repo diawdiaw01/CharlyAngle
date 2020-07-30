@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set("Asia/Bangkok");
-include($_SERVER['DOCUMENT_ROOT']."/charlyAngle/admin/public/uploadifive/connectDB.php");
-include($_SERVER['DOCUMENT_ROOT']."/charlyAngle/admin/public/uploadifive/function.php");
+include($_SERVER['DOCUMENT_ROOT']."/admin/public/uploadifive/connectDB.php");
+include($_SERVER['DOCUMENT_ROOT']."/admin/public/uploadifive/function.php");
 
 	$news_id = $_REQUEST['news_id'];
 	$tempFile = $_FILES['Filedata']['tmp_name'];
