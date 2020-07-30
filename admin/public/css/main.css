@@ -1,0 +1,196 @@
+.error{
+    color:red;
+	
+}
+#respond_status{
+	
+	width: 100% !important;
+	text-align: right;
+}
+.none{
+	display: none !important;
+}
+
+.white{
+	color:#f0f0f0;
+}
+
+.badge-nav {
+	background-color: #DC3545;
+  color: white;
+}
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;padding: 5px; font-size: 1.3em;}
+.red-tooltip + .tooltip > .tooltip-arrow {border-top-color: #f00;}
+.progress-bar{
+	background-color: #FFF ;
+}
+.vertical-timeline-content:after, .vertical-timeline-content:before{
+	border: 0;
+}
+.tooltip{
+	display:none;
+}
+.vertical-timeline-content:hover{
+	border-color:#1BBF89 !important;
+}
+.report-link-block{
+	
+	color: #FFF;
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: transparent;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	padding: 10px !important;
+	float: left;
+	width: 100%;
+}
+.report-link-block:hover{
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	border: 1px solid #4d505e;
+	-webkit-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+	text-decoration: none;
+}
+.report-link-block img{
+	opacity: 0.9;
+}
+.report-link-block:hover img{
+	opacity: 1;
+}
+.inline{
+	display: inline;
+}
+.noUnderline{
+	text-decoration: none !important;
+}
+.text-white{
+	color: white;
+}
+
+.panelHoverUp .panel-filled{
+	margin-top: 0px;
+	-webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+
+	
+}
+.panelHoverUp .panel-filled:hover{
+	margin-top: -10px;
+	-webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+	-webkit-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+}
+.panelHoverUp select,input,a {
+	-webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.panelHoverUp select:hover,input:hover,a:hover{
+	-webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+
+	color: #F6A830;
+}
+
+.small{
+	font-size: 0.8em;
+}
+.content{
+	padding: 10px;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.black{
+	color: #777 !important;
+}
+.monthly-list{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bordered-top-left{
+	border-top: 1px solid #555 !important;
+	border-left: 1px solid #555 !important;
+}
+.bordered-right{
+	border-right: 1px solid #555 !important;
+}
+.no-boder-left{
+	border-left: 0px solid #555 !important;
+}
+.height100{
+	float: left;
+	height: 120px;
+}
+
+.no-padding{
+	padding: 0;
+}
+.text-middle{
+	vertical-align: top;
+}
+.navbar-brand{
+	letter-spacing: 5px !important;
+	width: 100%;
+	float:left;
+	text-align: center;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus{
+	width: 215px !important;
+}
+
+.modal-body{
+	padding-top: 15px;
+}
+#sortable { list-style-type: none; margin: 0; padding: 0; width:100%; clear: both;float: left; margin-bottom: 15px; }
+#sortable li {width: 18%; float: left; margin: 1%; }
+
+.ld-loading  {
+  transition: opacity 0.3s;
+  opacity: 0.2;
+}
+.deleteGallery{
+	position: absolute;
+	top: -10px;
+	right: 10px;
+}
+.gallery-img:hover{
+	opacity: 0.85;
+}
+.ui-datepicker-week-end{
+    color: #000 !important;
+}
+.ui-datepicker-calendar span{
+     color: #000 !important;
+}

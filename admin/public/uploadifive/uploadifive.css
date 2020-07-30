@@ -1,0 +1,57 @@
+
+.uploadifive-button {
+	
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #DE981E;
+	color: #DE981E;
+	text-align: center;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	text-transform: uppercase;
+	width: 130px !important;
+	height: 35px !important;
+	line-height: 35px !important;
+	font-size: 0.9em;
+
+	cursor: pointer !important;
+	background-color: #DE981E;
+	color: #FFF;
+	
+}
+.uploadifive-button:hover {
+	background-color: #FFF;
+	color: #DE981E;
+	background-position: center bottom;
+	cursor: pointer !important;
+}
+.uploadifive-queue-item {
+	background-color: #F5F5F5;
+	border-bottom: 1px dotted #D5D5D5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	margin-top: 3px;
+	padding: 15px;
+}
+.uploadifive-queue-item .close {
+	background: url('uploadifive-cancel.png') 0 0 no-repeat;
+	display: block;
+	float: right;
+	height: 16px;
+	text-indent: -9999px;
+	width: 16px;
+}
+.uploadifive-queue-item .progress {
+	border: 1px solid #D0D0D0;
+	height: 5px;
+	margin-top: 5px;
+	width: 100%;
+}
+.uploadifive-queue-item .progress-bar {
+	background-color: #77CEFF;
+	height: 5px;
+	width: 0;
+}
