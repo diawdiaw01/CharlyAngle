@@ -49,6 +49,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'Home';
+/*$route['News/academic-services'] = 'News/category/1'; //งานบริการวิชาการชุมชน
+$route['News/featured'] = 'News/category/2'; //ข่าวเด่นและความภาคภูมิใจ
+$route['News/person'] = 'News/category/3'; //ข่าวบุคคลเด่น
+$route['News/procurement'] = 'News/category/4'; //ข่าวลักษณะงาน/จัดซื้อจัดจ้าง
+$route['News/director'] = 'News/category/5'; //ข่าวผู้บริหาร
+$route['News/event'] = 'News/category/6'; //กิจกรรมสำนัก
+$route['News/pr'] = 'News/category/7'; //ข่าวประชาสัมพันธ์*/
+//$route['Museum/knowledge'] = 'Museum/category/101'; // องต์ความรู้(พิพิธภัณฑ์)
+//$route['Museum/activities'] = 'Museum/category/102'; // องต์ความรู้(พิพิธภัณฑ์)
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
