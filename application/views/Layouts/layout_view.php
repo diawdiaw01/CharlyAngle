@@ -17,15 +17,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?=base_url()?>public/css/fontawesome5.10.1/css/all.css">
 <link rel="stylesheet" href="<?=base_url()?>public/css/animate.css">
-<link rel="stylesheet" href="<?=base_url()?>public/bootstrap-4.5.0-dist/css/main.css">
+<link rel="stylesheet" href="<?=base_url()?>public/css/main.css">
 </head>
 <body>
 	<span  id="rainbow-progress-bar"></span>
 	
 	<? $this->load->view('Layouts/header_view');?>
+	
 	<? $this->load->view($content)?>
 	<div id="stop" class="scrollTop">
-		<span><a href=""><i class="fas fa-chevron-circle-up fa-2x second-font-color"></i></a></span>
+		<span><a href=""><i class="fas fa-chevron-circle-up fa-2x "></i></a></span>
 	  </div>
 	<? $this->load->view('Layouts/footer_view');?>
 	
