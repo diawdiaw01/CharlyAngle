@@ -156,6 +156,11 @@ echo $striped_content;
 	}
 
 	
+	function checkNewsCover($news_id){
+		$ci=& get_instance();
+		return $ci->Get_model->checkNewsCover($news_id);
+	}
+	
 	function URLfriendly($string,$encode=true)
 	{
 		$string=strtolower(trim($string));

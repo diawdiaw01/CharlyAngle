@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set("Asia/Bangkok");
-include($_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/charlyAngle/admin/public/uploadifive/connectDB.php");
-include($_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/charlyAngle/admin/public/uploadifive/function.php");
+include($_SERVER['DOCUMENT_ROOT']."/Demo7/admin/public/uploadifive/connectDB.php");
+include($_SERVER['DOCUMENT_ROOT']."/Demo7/admin/public/uploadifive/function.php");
 
 	$news_id = $_REQUEST['news_id'];
 	$tempFile = $_FILES['Filedata']['tmp_name'];
@@ -13,8 +13,8 @@ include($_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/charlyAngle/admin/public/uplo
 	// Validate the file type
 	$fileTypes = array('jpg','jpeg','gif','png'); // File extensions
 	$fileParts = pathinfo($_FILES['Filedata']['name']);
-		 ResizeFileW(1500,$imgFile,$_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/charlyAngle/public/img/uploadfile/".$imgName,95);
-		 cropImage($imgFile,$_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/charlyAngle/public/img/uploadfile/crop/".$imgName,500,375);
+		 ResizeFileW(1500,$imgFile,$_SERVER['DOCUMENT_ROOT']."/Demo7/public/img/uploadfile/".$imgName,95);
+		 cropImage($imgFile,$_SERVER['DOCUMENT_ROOT']."/Demo7/public/img/uploadfile/crop/".$imgName,500,375);
 		  echo $sql = "INSERT INTO `news_gallery` (`gallery_id`, `news_id`, `image`, `caption`, `sort_id`) VALUES (NULL, '$news_id', '$imgName', '', '0');";
 
 			 
