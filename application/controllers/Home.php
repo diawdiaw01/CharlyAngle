@@ -12,6 +12,7 @@ public function _construct(){
 	{
 		$this->viewFolder	= $this->router->class;
 		$data['title']		= "Charly Angle";
+		$data['newsList'] = $this->Get_model->loadNewsList(0,8);
 		$data['content'] = $this->viewFolder.'/home_view';
 		$this->load->view('Layouts/layout_view', $data);
 	}

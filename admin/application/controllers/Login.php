@@ -23,7 +23,7 @@ class Login extends CI_Controller {
 		$this->viewFolder	= $this->router->class;
 		$checkLogin = $this->Login_model->checkLogin();
 		if($checkLogin){
-			redirect(base_url().'News/');
+			redirect(base_url().'News/lists/1');
 		}else{
 			echo "false";
 			redirect(base_url().'Login/');

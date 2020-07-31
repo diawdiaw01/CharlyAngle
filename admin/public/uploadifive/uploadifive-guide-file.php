@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set("Asia/Bangkok");
-include($_SERVER['DOCUMENT_ROOT']."/admin/public/uploadifive/connectDB.php");
-include($_SERVER['DOCUMENT_ROOT']."/admin/public/uploadifive/function.php");
+include($_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/CharlyAngle/admin/public/uploadifive/connectDB.php");
+include($_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/CharlyAngle/admin/public/uploadifive/function.php");
 
 	$news_id = $_REQUEST['news_id'];
 	$tempFile = $_FILES['Filedata']['tmp_name'];
@@ -16,7 +16,7 @@ include($_SERVER['DOCUMENT_ROOT']."/admin/public/uploadifive/function.php");
 	$fileParts = pathinfo($_FILES['Filedata']['name']);
 		 //ResizeFileW(1170,$imgFile,$_SERVER['DOCUMENT_ROOT']."/art-culture2019-green/public/img/uploadfile/".$imgName,95);
 		 //cropImage($imgFile,$_SERVER['DOCUMENT_ROOT']."/art-culture2019-green/public/img/uploadfile/crop/".$imgName,500,333);
-		 move_uploaded_file($_FILES["Filedata"]["tmp_name"],$_SERVER['DOCUMENT_ROOT']."/public/img/uploadfile/".$imgName);
+		 move_uploaded_file($_FILES["Filedata"]["tmp_name"],$_SERVER['DOCUMENT_ROOT']."/charlyAngleGit/CharlyAngle/public/img/uploadfile/".$imgName);
 		 
 		  $sql = "update news set file = '$imgName', file_real_name = '$realName' where news_id = '$news_id' ";
 
